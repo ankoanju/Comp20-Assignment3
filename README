@@ -1,0 +1,17 @@
+Anju Ishizaki
+COMP20 - Assignment 3
+February 7th 2020
+
+URL: 
+Name of business:　Stour!
+
+What they do: Short for student tours, stour! is a day-in-a-life campus tour business run by students. Usually, campus tours are organised by the University and volunteers show the visitors around specific historical or main buildings of the college campus. Most of them consist of simply walking around and examining the library. At stour! students plan their own tours for prospective students and their family members to actually experience what a typical day is like at their university. We hope stour! can expand the opportunities and allow students to experience the real routine.
+
+Who is the target demographic: Prospective students (high-school students) and their family members who are interested in how current students in the university actually spend their time at school. Transfer students who want to compare and contrast their lives in another university with their current one. Because these tours are by students, there are not only focused on just college courses but some also involve 
+
+
+Q1. What was the easiest part of this assignment?
+Once I started to understand classes, it went on very smoothly because I could just make a class for all the main headers in the different pages, as well as a text class for all the description and details for each page. I also thought moving things around was easy (also hard, explained later) because once you change something, you could visually see it and understand what the change you just did was for. For example, when I changed one of the numbers in the padding, it showed the corresponding layout in the website, which was pretty straightforward and easy to understand.
+
+Q2. What was the most challenging part of this assignment?
+One challenging thing I encountered was the heiarchy of the tags. Sometimes my code didn't work only because it was under another tag when it wasn't supposed to, and some class or tag was overriding what I wanted to do. Also, some concepts such as padding and margins were difficult to distinguish, so I had to experiment for a while to understand that. My other challenege was the responsive link in the home page. Originally, I was creating a rectangular text in the middle of the image, and tried to use percentages for the location of the text (so that it is responsive). However, even when I tried 50%, it wasn't actually halfway, and so, after multiple tries, I gave up and decided to leave it on the bottom as it is now (which I like too).

@@ -1,0 +1,88 @@
+<!doctype html>
+
+<html>
+<head>
+	<title> Home </title>
+	<link rel = "stylesheet" type = "text/css" href = "style.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<meta name = "viewport" content = "width=device-width, intial-scale = 1">
+<style>
+
+
+.container{
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	padding-top: 100px;
+	padding-bottom: 150px;
+	width: 100%;
+}
+
+.image{
+	opacity: 1;
+	display:block;
+	width: 100%;
+	height: auto;
+	transition: 0.5s ease;
+	backface-visibility: hidden;
+}
+
+.textbox_middle{
+	opacity: 0;
+	transition: 0.5s ease;
+	top: 50%;
+	left: 50%;
+	transform: translate (-50%, -50%);
+	-ms-transform: translate (-50%, -50%);
+	text-align: center;
+	text-decoration: none;
+}
+
+.container:hover .image{
+	opacity: 0.3;
+}
+
+.container:hover .textbox_middle{
+	text-decoration: none !important;
+	opacity: 1;
+}
+
+.text_middle{
+	background-color: #C95D63;
+	color: white;
+	font-size: 20px;
+	padding: 30px, 32px;
+	text-decoration: none !important;
+}
+
+</style>
+</head>
+
+<body>
+
+	<ul>
+		<div class = "logo_left">
+			<li><a href = "index.html"><img class="logo" src="logo.png"></a></li>
+		</div>
+		<div class = "navigation_bar">
+			<li> <a href = "index.html" class= "current"> <i class = "fa fa-fw fa-home"> </i>Home </a> </li>
+			<li> <a href = "Services.html"> <i class = "fa fa-fw fa-cogs"> </i>Services </a> </li>
+			<li> <a href = "Contact.html"> <i class = "fa fa-fw fa-envelope"> </i>Contact </a> </li>
+		</div>
+	</ul>
+
+	<div class="container">
+  		<img src="home_pic1.jpg" alt="Avatar" class="image" style="width:100%">
+  	<div class="textbox_middle">
+    	<a href="Services.html"><div class="text_middle">Learn More</div></a>
+  	</div>
+	</div>
+
+	
+	<div class="footer">
+		<p> COMP20 Assignment 3 by Anju </p>
+	</div>
+
+</body>
+
+</html>
